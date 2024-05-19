@@ -4,7 +4,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24  bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]">
+      {
+        /*
+        This div prevemnted us from utilizing the hover: command within our classNames
       <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]  ">
+      */
+      }
         <div className="m-auto flex max-w-screen-xl flex-col items-center gap-6 p-6 lg:flex-row lg:gap-0 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <div className="relative flex w-full flex-1 items-center lg:basis-[500px] lg:text-right ">
             <div className="flex-1 lg:pr-6">
@@ -28,7 +33,7 @@ export default function Home() {
               <div className="items-center gap-6 lg:flex">
                 <div className="relative mb-4 lg:mb-0 lg:pl-16">
                   <div className="absolute left-0 top-1/2 hidden h-px w-full bg-green-500 lg:block"></div>
-                  <div className="relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900 animate-bounce">
+                  <div className="relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900 hover:animate-bounce">
                     <Image
                       className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert m-auto block h-full max-h-full w-10"
                       src="/Chargers.svg"
@@ -59,7 +64,7 @@ export default function Home() {
               <div className="items-center gap-6 lg:flex">
                 <div className="relative mb-4 lg:mb-0 lg:pl-16">
                   <div className="absolute left-0 top-1/2 hidden h-px w-full bg-green-500 lg:block"></div>
-                  <div className="animate-bounce relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900">
+                  <div className="hover:animate-bounce relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900">
                     <Image
                       className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert m-auto block h-full max-h-10 w-full"
                       src="/portfolio.svg"
@@ -86,7 +91,7 @@ export default function Home() {
               <div className="items-center gap-6 lg:flex">
                 <div className="relative mb-4 lg:mb-0 lg:pl-16">
                   <div className="absolute left-0 top-1/2 hidden h-px w-full bg-green-500 lg:block"></div>
-                  <div className="relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900 animate-bounce">
+                  <div className="relative grid h-24 w-24 rounded-full border border-solid border-green-500 bg-neutral-900 hover:animate-bounce">
                     <svg
                       className="m-auto block h-full max-h-12 w-full"
                       fill="none"
@@ -118,7 +123,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      </div>
+      
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
         <a
