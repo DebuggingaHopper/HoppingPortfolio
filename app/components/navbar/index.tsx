@@ -16,7 +16,7 @@ const Navbar = () => {
             This creatse the divider where we have the darkness gradient color
         */}
         
-      <div className="w-full h-20 bg-gradient-to-r from-zinc-900 to-slate-700 sticky top-0">
+      <div className="w-full flex-nowrap bg-gradient-to-r from-zinc-900 to-slate-700 sticky top-0">
         {/* 
             This creates another divider which is meant as a container
         */}

@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Icon } from "./indexIcon";
 {
 /*
-  Project: Portfolio Website DebuggingaHopper
+  Project: HoppingPortfolio
   Description: This is a website that is meant for displaying myself for employers, and to display my projects alongside Resume in a easily digetsbale manner
   Date: 5/19/2024
 */
@@ -84,7 +86,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="mb-2 text-xl font-bold">ChargersLink</h3>
+                <h3 className="mb-2 text-xl font-bold">ChargersLink  <Icon name="bx bxl-flutter" size="25px" /><Icon name="bx bxl-android" size="25px" /> <Icon name="bx bxl-apple" size="25px" /></h3>
                 <p className="opacity-75 text-white font-semibold">
                   A Cross-Platform Mobile Application for Capitol Technology
                   University built on Flutter. this application aimed at
@@ -115,10 +117,10 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="mb-2 text-xl font-bold">Portfolio</h3>
+                <h3 className="mb-2 text-xl font-bold">Portfolio <Icon name="bx bxl-typescript" size="25px" /> <Icon name="bx bxl-tailwind-css" size="25px" /> </h3>
                 <p className="opacity-75 text-white font-semibold">
                   This portfolio page was constructed as a personal project to
-                  refine my skills and test tailwind CSS, Nextjs and typescript.
+                  display my knowledge, and the projects I have worked on since I have graduated from college.
                 </p>
               </div>
             </div>
@@ -175,6 +177,7 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
+          href="https://ieeexplore.ieee.org/abstract/document/10091077"
         >
           <h2 className="mb-3 text-2xl font-semibold">Published Paper </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-65">
@@ -202,7 +205,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Exposure to the Hospital Sector
+          Hospital Sector Experience <Icon name="bx bxl-data" size="25px" /> <Icon name="bx bxl-postgresql" size="25px" /> 
           </h2>
           <p className=" m-0 max-w-[30ch] text-sm opacity-65">
             Have had the pelasure to work with hopsitals in cosntructing
