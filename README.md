@@ -24,5 +24,5 @@ We have three core pages:
   
 ## Desired updates
 
-What i would like to add is to ensure that the navigation bar does not overlap with the rest of the page.
+What i would like to add is to ensure that the navigation bar does not overlap with the rest of the page. However at the current moment I am satisdfied with the current prototype as this is a page i can always return to
 
