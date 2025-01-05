@@ -1,28 +1,14 @@
-This is HoppingPortfolio my personal Portfolio Page
 
-# How does the website look
-As you can see the current version of the websiote looks like the following
+
+# What is this website
+This is a personal protfolio page made with NextJS that has the following layout:
 
 ![Hopper-Portfolio](image-1.png)
 
-## Howe i designed the page
-The core desing of the page is extremely simple, what we will have are two pages 
+## How I designed the website
+The core desing of the page was to be extremely simple but demonstrate the projects I was working at the time, however it assisted with laying out the foundation for my actual protfolio page which is my personal blog page.
 
-1. Main Page: This page will contain the following core elements of my portfolio Page
-   - Navigation Bar : This is made in a manner similar to a directory
-   - projects & introduction: This will be in the center where I introcuce who I am alongside the projects  have worked on in the past
-   - Achievements & Resume, This will display my achievements in what I have been able to accomplish
+This page is meant to display the start of working with NextJS, this webpage had a majority of its components based on the default page which made it look extremely bland. However thanks this project iw as able to take various aspects of it including the dashboard and use it in my actual [portfolio page](https://github.com/DebuggingaHopper/lakebyte)
 
-2. Resume Viewer: this will allow the user to view my resume
 
-## Pages
-
-We have three core pages:
- - Navigation ```index.tsx``` : Located in the components/navbar folder
- - Main  ```page.tsx``` : located in the app folder
- - Resume ```Viewer page.tsx``` : located in the PDF
-  
-## Desired updates
-
-What i would like to add is to ensure that the navigation bar does not overlap with the rest of the page. However at the current moment I am satisdfied with the current prototype as this is a page i can always return to
 
